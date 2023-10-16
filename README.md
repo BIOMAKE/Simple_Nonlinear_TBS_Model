@@ -12,7 +12,7 @@ Abstract: Transcranial magnetic stimulation (TMS) is a non-invasive neurostimula
    * `impulseTrainGen.m`: this script aims to generate a series of pulses with a given frequency and burst.
    * `odeRK4.m`: this script implements the fourth-order Runge---Kutta method.
    * `simFuntion_ODE.m`: this script aims to calculate the simulation results for a given input protocol.
-3. Supplementary document: this PDF document contains all studies used for data collection.
+3. Supplementary document: this PDF document contains all studies used for data collection. We collected the TBS experimental data, specifically the reported mean values of MEPs, from studies listed in the supplementary document. Where data were not reported numerically, we extracted them through plot digitisation (https://apps.automeris.io/wpd/).
 # Main Functions
 1. `PredictionPlot.m`: this script aims to plot `PredictionPlots.pdf`.
 2. `SubstanceRatePlot.m`: this script aims to plot `substanceRate.pdf`.
